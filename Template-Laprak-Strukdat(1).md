@@ -141,10 +141,10 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%203/Screenshot%202026-09-30%20004224.png
 
 ##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%203/Screenshot%202026-09-30%20004241.png
 
 penjelasan unguided 3
 ## masukan inputan angka lalu melakukan perulangan increment sebanyak angka, di dalam perulangan pertama ada 3 perulangan menghasilkan output segitiga kebalik dengan tinggi variable angka 
