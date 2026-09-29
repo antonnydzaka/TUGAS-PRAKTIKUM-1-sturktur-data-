@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+<p align="center">Antonny Dzaka Fadhillah - 109082500038</p>
 
 ## Dasar Teori
 isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
@@ -43,10 +43,23 @@ penjelasan singkat guided 3
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1.Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut. 
 
 ```C++
-source code unguided 1
+#include <iostream>
+using namespace std;
+
+main(){
+    float a, b;
+    cout<<"masukan dua angka:";
+    cin>>a >>b;
+    cout<<"penjumlahan:"<< a + b<< '\n';
+    cout<<"pengurangan:"<< a - b<< '\n';
+    cout<<"perkalian:"<< a * b<< '\n';
+    cout<<"pembagian:"<< a / b<< '\n';
+    return 0;
+}
+
 ```
 ### Output Unguided 1 :
 
@@ -60,6 +73,7 @@ contoh :
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 1 
+### variabel a dan b, lalu masukan inputan variable a dan b setelah itu output penjumlahan, pengurangan, perkalian, pembagian
 
 ### 2. (isi dengan soal unguided 2)
 
