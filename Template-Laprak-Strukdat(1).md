@@ -99,38 +99,58 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%202/Screenshot%202026-09-30%20000603.png
 
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%202/Screenshot%202026-09-30%20000611.png
 
 penjelasan unguided 2
 ## membuat fungsi bilangan untuk membaca angka inputan lalu di bagian fungsi main melakukan input angka lalu output dengan fungsi bilangan dengan parameter angka 
 
-### 3. (isi dengan soal unguided 3)
+### 3. Buatlah program yang dapat memberikan input dan output, foto soal ada di modul.
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka;
+    cin >> angka;
+    for (int i = 0; i < angka ; i++) {
+        for (int k = 0; k < i; k++) {
+            cout << "  ";
+        }
+        for (int j = angka-i; j > 0; j--) {
+            cout << j << " ";
+        }
+        cout << "* ";
+        for (int j = 1 ; j <= angka-i; j++) {
+            cout << j << " ";
+        }   
+        cout << '\n';
+    }
+    for (int i = 0; i < angka; i++)
+    {
+        cout << "  ";
+    }
+    
+    cout << "*";
+    return 0;
+}
 ```
 ### Output Unguided 3 :
 
 ##### Output 1
 ![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
+## masukan inputan angka lalu melakukan perulangan increment sebanyak angka, di dalam perulangan pertama ada 3 perulangan menghasilkan output segitiga kebalik dengan tinggi variable angka 
 
 ## Kesimpulan
-...
-
+modul 1 menjelaskan bagaimana membuat program sederhana mengunakan bahasa c++
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
 <br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
